@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment files
+venv/
+.env
+
+# Ignore instance folder (for secret config like database URI)
+instance/
+
+# VS Code specific
+.vscode/
+*.code-workspace
+tempCodeRunnerFile.py
+
+# MacOS specific (in case you copy to a Mac)
+.DS_Store
+
+# SQLite DB (optional, if you don't want to share your local DB)
+*.sqlite3
+*.db
